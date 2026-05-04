@@ -1,0 +1,328 @@
+body{
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    background: white;
+    font-family: sans-serif;
+}
+
+header{
+    /* width: 100%; */
+    /* height: 100px; */
+    padding: 25px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #2d378e;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.hero{
+    width: 100%;
+    height: 650px;
+    /* background-color: rgb(196, 193, 193); */
+    background: url(assets/hero.8636885a0e031bb830f3.png);
+}
+
+.whytext{
+    text-align: center;
+    font-weight: 300;
+    font-size: 40px;
+    color: #2d378e;
+    margin-top: 70px;
+}
+.why{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-top: 30px; */
+    background-color: #fff;
+    height: 500px;
+}
+.left-content h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.counts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    /* gap: 30px; */
+}
+.counts h6{
+    font-weight: 500;
+    font-size: 25px;
+}
+.counts p{
+    color: #00000080;
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: -35px;
+}
+/* .right{
+    display: flex;
+    justify-content: space-around;
+} */
+.rigth-content{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+}
+.rigth-content img{
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+}
+.inner1{
+    width: 400px;
+    background: rgba(221, 221, 221, 0.1);
+    text-align: center;
+    border-radius: 20px;
+}
+.inner2{
+    background: rgba(214, 169, 95, 0.1);
+    text-align: center;
+    border-radius: 20px;
+}
+.inner3{
+    background: rgba(178, 176, 247, 0.1);;
+    text-align: center;
+    border-radius: 20px;
+}
+.inner4{
+    background: rgba(255, 169, 220, 0.1);;
+    text-align: center;
+    border-radius: 20px;
+}
+.tools{
+    padding: 20px;
+    /* text-align: center; */
+}
+.tools h1{
+    font-size: 36px;
+    color: #2f358d;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+}
+.tools .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.tools .container i{
+   font-size: 80px;
+}
+
+.programs{
+    height: 750px;
+   background: #dea7291a;
+}
+.programs h2{
+    font-size: 36px;
+    color: #2f358d;
+    font-weight: 500;
+    text-align: center;
+}
+.programs p{
+    text-align: center;
+}
+.programs-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+.program-box{
+    padding: 10px;
+    background-color: #fff;
+    height: 550px;
+    width: 400px;
+    border-radius: 25px;
+    text-align: center;
+}
+.program-box h3{
+    font-size: 19px;
+}
+.program-box p{
+  font-weight: 40;
+}
+.program-box a{
+    text-align: start;
+}
+.program-box img{
+    width: 93%;
+    /* margin-left: 5px; */
+    margin-top: 20px;
+    height: 230px;
+}
+
+.startups{
+    padding: 10px;
+}
+.startups h1{
+    font-size: 36px;
+    color: rgb(0, 0, 131);
+    font-weight: 500;
+    text-align: center;
+}
+.startups .container{
+    display: flex;
+    /* gap: 300px;
+    width: 100%; */
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.startups .container2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 300px; */
+    margin-top: 30px;
+}
+
+.testimonials{
+    /* width: 90%; */
+    height: 650px;
+    background: #b2b0f71a;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 0;
+}
+.testimonials-text h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+.testimonials-text p{
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.testimonials-card{
+    background: #fff;
+    width: 500px;
+    height: 560px;
+    padding: 25px;
+    border-radius: 25px;
+    text-align: center;
+    
+}
+.testimonials-card h4{
+    line-height: 1.6;
+    margin-top: 0;
+}
+.testimonials-card img{
+    border-radius: 50%;
+}
+.testimonials-card h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 10px
+}
+.testimonials-card P{
+    color: #dea729;
+    font-size: 18px;
+    font-weight: 400;;
+}
+.dots{
+    margin-top: 5px;
+    margin-left: 28px;
+    display: flex;
+    gap: 8px;
+}
+.dot{
+    width: 8px;
+    height: 8px;
+    background-color: #cacaca;
+    border-radius: 50%;
+}
+.dot-b{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(62, 62, 247);
+    border-radius: 50%;
+}
+
+.contact-us h1{
+    text-align: center;
+    color: #2f358d;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.contact-cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.form{
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(69, 65, 78, .06);
+    height: 400px;
+    width: 520px;
+    padding: 20px;
+}
+.form input{
+    width: 500px;
+    height: 55px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #5e5e5e;
+    outline: none;
+}
+.form button{
+    width: 510px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #dea729;
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+    outline: none;
+}
+.address{
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(69, 65, 78, .06);
+    width: 500px;
+    height: 400px;
+    padding: 25px;
+}
+.address h3{
+    text-align: start;
+    color: #2f358d;
+    /* font-size: 30px; */
+}
+
+footer{
+    color: rgb(0, 0, 131);
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    height: 100%;
+}
+footer img{
+    width: 300px;
+    object-fit: contain;
+}
+footer h3{
+    font-weight: 600;
+    padding-bottom: 20px;
+    align-items: flex-start;
+    margin-left: 50px;
+    color: rgb(0, 0, 131);
+}
+footer li{
+   margin-top: 20px;
+   font-weight: 400;
+}
